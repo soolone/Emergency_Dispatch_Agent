@@ -1,19 +1,19 @@
 class Qwen25VL72BInstruct:
     def __init__(self):
         self.model = "Qwen/Qwen2.5-VL-72B-Instruct"
-        self.api_key = "16a177c8-8cec-4ea2-98ae-df25ba79e6ec"
+        self.api_key = "your-modelscope-api"
         self.api_base = "https://api-inference.modelscope.cn/v1/"
 
 class Qwen3_235B_A22B:
     def __init__(self):
         self.model = "Qwen/Qwen3-235B-A22B"
-        self.api_key = "16a177c8-8cec-4ea2-98ae-df25ba79e6ec"
+        self.api_key = "your-modelscope-api"
         self.api_base = "https://api-inference.modelscope.cn/v1/"
 
 class GPT41:
     def __init__(self):
         self.model = "gpt-4.1"
-        self.api_key = "sk-Tqg4hZnHUVngbD4iWrL9DqypUZyy7bTrwUQkDEgxLfCYzntg"
+        self.api_key = "your-dmxapi"
         self.api_base = "https://www.dmxapi.cn/v1"
 
 class ModelConfigManager:
