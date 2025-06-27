@@ -1,0 +1,464 @@
+{
+  "warehouses": [
+    {
+      "id": "WH001",
+      "name": "文化宫仓库",
+      "location": {
+        "address": "文化宫",
+        "longitude": 104.009413,
+        "latitude": 30.672258,
+        "city": "成都市",
+        "district": "青羊区"
+      },
+      "capacity": {
+        "total_area": 5000,
+        "available_area": 4200,
+        "max_weight": 800
+      },
+      "resources": {
+        "fire_extinguishing": {
+          "foam_extinguisher": {
+            "quantity": 25,
+            "unit": "台",
+            "type": "泡沫灭火器",
+            "specification": "35L"
+          },
+          "dry_powder_extinguisher": {
+            "quantity": 30,
+            "unit": "台",
+            "type": "干粉灭火器",
+            "specification": "8kg"
+          },
+          "fire_hose": {
+            "quantity": 15,
+            "unit": "条",
+            "type": "消防水带",
+            "specification": "65mm×25m"
+          }
+        },
+        "rescue_equipment": {
+          "breathing_apparatus": {
+            "quantity": 10,
+            "unit": "套",
+            "type": "呼吸器",
+            "specification": "正压式空气呼吸器"
+          },
+          "protective_suit": {
+            "quantity": 10,
+            "unit": "套",
+            "type": "防护服",
+            "specification": "阻燃防护服"
+          },
+          "rescue_rope": {
+            "quantity": 8,
+            "unit": "条",
+            "type": "救援绳",
+            "specification": "直径12mm×50m"
+          }
+        },
+        "medical_supplies": {
+          "first_aid_kit": {
+            "quantity": 12,
+            "unit": "套",
+            "type": "急救包",
+            "specification": "标准急救包"
+          },
+          "burn_dressing": {
+            "quantity": 50,
+            "unit": "包",
+            "type": "烧伤敷料",
+            "specification": "无菌敷料"
+          },
+          "face_mask": {
+            "quantity": 6,
+            "unit": "个",
+            "type": "防烟面罩",
+            "specification": "一次性防烟面罩"
+          }
+        }
+      },
+      "contact": {
+        "manager": "张明",
+        "phone": "028-12345001",
+        "emergency_phone": "028-12345002"
+      }
+    },
+    {
+      "id": "WH002",
+      "name": "天府广场仓库",
+      "location": {
+        "address": "天府广场",
+        "longitude": 104.065861,
+        "latitude": 30.657401,
+        "city": "成都市",
+        "district": "锦江区"
+      },
+      "capacity": {
+        "total_area": 8000,
+        "available_area": 7200,
+        "max_weight": 1200
+      },
+      "resources": {
+        "fire_extinguishing": {
+          "co2_extinguisher": {
+            "quantity": 40,
+            "unit": "台",
+            "type": "二氧化碳灭火器",
+            "specification": "5kg"
+          },
+          "fire_pump": {
+            "quantity": 6,
+            "unit": "台",
+            "type": "消防泵",
+            "specification": "便携式消防泵"
+          }
+        },
+        "rescue_equipment": {
+          "breathing_apparatus": {
+            "quantity": 10,
+            "unit": "套",
+            "type": "呼吸器",
+            "specification": "正压式空气呼吸器"
+          },
+          "protective_suit": {
+            "quantity": 10,
+            "unit": "套",
+            "type": "防护服",
+            "specification": "阻燃防护服"
+          },
+          "ladder": {
+            "quantity": 8,
+            "unit": "架",
+            "type": "救援梯",
+            "specification": "伸缩梯6m"
+          },
+          "cutting_tool": {
+            "quantity": 5,
+            "unit": "套",
+            "type": "破拆工具",
+            "specification": "液压破拆工具组"
+          }
+        },
+        "communication": {
+          "radio": {
+            "quantity": 20,
+            "unit": "台",
+            "type": "对讲机",
+            "specification": "防爆对讲机"
+          },
+          "megaphone": {
+            "quantity": 6,
+            "unit": "台",
+            "type": "扩音器",
+            "specification": "手持式扩音器"
+          }
+        },
+        "medical_supplies": {
+          "face_mask": {
+            "quantity": 12,
+            "unit": "个",
+            "type": "防烟面罩",
+            "specification": "一次性防烟面罩"
+          }
+        }
+      },
+      "contact": {
+        "manager": "李华",
+        "phone": "028-12345003",
+        "emergency_phone": "028-12345004"
+      }
+    },
+    {
+      "id": "WH003",
+      "name": "西藏饭店仓库",
+      "location": {
+        "address": "西藏饭店",
+        "longitude": 104.07167,
+        "latitude": 30.682073,
+        "city": "成都市",
+        "district": "金牛区"
+      },
+      "capacity": {
+        "total_area": 3500,
+        "available_area": 3000,
+        "max_weight": 600
+      },
+      "resources": {
+        "fire_extinguishing": {
+          "water_extinguisher": {
+            "quantity": 20,
+            "unit": "台",
+            "type": "水基灭火器",
+            "specification": "6L"
+          },
+          "fire_blanket": {
+            "quantity": 15,
+            "unit": "条",
+            "type": "灭火毯",
+            "specification": "1.8m×1.8m"
+          }
+        },
+        "rescue_equipment": {
+          "breathing_apparatus": {
+            "quantity": 10,
+            "unit": "套",
+            "type": "呼吸器",
+            "specification": "正压式空气呼吸器"
+          },
+          "protective_suit": {
+            "quantity": 10,
+            "unit": "套",
+            "type": "防护服",
+            "specification": "阻燃防护服"
+          }
+        },
+        "evacuation": {
+          "emergency_light": {
+            "quantity": 25,
+            "unit": "台",
+            "type": "应急照明灯",
+            "specification": "LED应急灯"
+          },
+          "evacuation_slide": {
+            "quantity": 4,
+            "unit": "套",
+            "type": "逃生滑梯",
+            "specification": "充气式逃生滑梯"
+          }
+        },
+        "medical_supplies": {
+          "oxygen_tank": {
+            "quantity": 12,
+            "unit": "瓶",
+            "type": "氧气瓶",
+            "specification": "40L医用氧气"
+          },
+          "stretcher": {
+            "quantity": 8,
+            "unit": "副",
+            "type": "担架",
+            "specification": "折叠式担架"
+          },
+          "face_mask": {
+            "quantity": 25,
+            "unit": "个",
+            "type": "防烟面罩",
+            "specification": "一次性防烟面罩"
+          }
+        }
+      },
+      "contact": {
+        "manager": "王强",
+        "phone": "028-12345005",
+        "emergency_phone": "028-12345006"
+      }
+    },
+    {
+      "id": "WH004",
+      "name": "成都南站仓库",
+      "location": {
+        "address": "成都南站",
+        "longitude": 104.068469,
+        "latitude": 30.60613,
+        "city": "成都市",
+        "district": "武侯区"
+      },
+      "capacity": {
+        "total_area": 12000,
+        "available_area": 10500,
+        "max_weight": 2000
+      },
+      "resources": {
+        "fire_extinguishing": {
+          "foam_extinguisher": {
+            "quantity": 35,
+            "unit": "台",
+            "type": "泡沫灭火器",
+            "specification": "35L"
+          },
+          "dry_powder_extinguisher": {
+            "quantity": 40,
+            "unit": "台",
+            "type": "干粉灭火器",
+            "specification": "8kg"
+          },
+          "fire_monitor": {
+            "quantity": 4,
+            "unit": "台",
+            "type": "消防水炮",
+            "specification": "固定式消防水炮"
+          }
+        },
+        "rescue_equipment": {
+          "breathing_apparatus": {
+            "quantity": 10,
+            "unit": "套",
+            "type": "呼吸器",
+            "specification": "正压式空气呼吸器"
+          },
+          "protective_suit": {
+            "quantity": 10,
+            "unit": "套",
+            "type": "防护服",
+            "specification": "阻燃防护服"
+          }
+        },
+        "heavy_equipment": {
+          "fire_truck_equipment": {
+            "quantity": 3,
+            "unit": "套",
+            "type": "消防车装备",
+            "specification": "云梯消防车配件"
+          },
+          "generator": {
+            "quantity": 5,
+            "unit": "台",
+            "type": "发电机",
+            "specification": "50kW柴油发电机"
+          },
+          "water_pump": {
+            "quantity": 8,
+            "unit": "台",
+            "type": "抽水泵",
+            "specification": "大功率抽水泵"
+          }
+        },
+        "logistics": {
+          "fuel_tank": {
+            "quantity": 1000,
+            "unit": "升",
+            "type": "燃油",
+            "specification": "0号柴油"
+          },
+          "transport_vehicle": {
+            "quantity": 3,
+            "unit": "辆",
+            "type": "运输车辆",
+            "specification": "应急物资运输车"
+          }
+        },
+        "medical_supplies": {
+          "face_mask": {
+            "quantity": 8,
+            "unit": "个",
+            "type": "防烟面罩",
+            "specification": "一次性防烟面罩"
+          }
+        }
+      },
+      "contact": {
+        "manager": "陈军",
+        "phone": "028-12345007",
+        "emergency_phone": "028-12345008"
+      }
+    },
+    {
+      "id": "WH005",
+      "name": "成都东站仓库",
+      "location": {
+        "address": "成都东站",
+        "longitude": 104.140947,
+        "latitude": 30.628779,
+        "city": "成都市",
+        "district": "成华区"
+      },
+      "capacity": {
+        "total_area": 10000,
+        "available_area": 8800,
+        "max_weight": 1500
+      },
+      "resources": {
+        "fire_extinguishing": {
+          "foam_extinguisher": {
+            "quantity": 30,
+            "unit": "台",
+            "type": "泡沫灭火器",
+            "specification": "35L"
+          },
+          "co2_extinguisher": {
+            "quantity": 25,
+            "unit": "台",
+            "type": "二氧化碳灭火器",
+            "specification": "5kg"
+          },
+          "fire_foam": {
+            "quantity": 500,
+            "unit": "升",
+            "type": "泡沫液",
+            "specification": "AFFF泡沫液"
+          }
+        },
+        "rescue_equipment": {
+          "breathing_apparatus": {
+            "quantity": 10,
+            "unit": "套",
+            "type": "呼吸器",
+            "specification": "正压式空气呼吸器"
+          },
+          "protective_suit": {
+            "quantity": 10,
+            "unit": "套",
+            "type": "防护服",
+            "specification": "阻燃防护服"
+          },
+          "thermal_camera": {
+            "quantity": 6,
+            "unit": "台",
+            "type": "热成像仪",
+            "specification": "消防用热成像仪"
+          },
+          "rescue_boat": {
+            "quantity": 2,
+            "unit": "艘",
+            "type": "救援艇",
+            "specification": "充气式救援艇"
+          }
+        },
+        "command_center": {
+          "mobile_command_unit": {
+            "quantity": 1,
+            "unit": "套",
+            "type": "移动指挥单元",
+            "specification": "应急指挥车装备"
+          },
+          "satellite_phone": {
+            "quantity": 5,
+            "unit": "台",
+            "type": "卫星电话",
+            "specification": "应急通信设备"
+          },
+          "drone": {
+            "quantity": 4,
+            "unit": "架",
+            "type": "无人机",
+            "specification": "消防侦察无人机"
+          }
+        },
+        "medical_supplies": {
+          "face_mask": {
+            "quantity": 18,
+            "unit": "个",
+            "type": "防烟面罩",
+            "specification": "一次性防烟面罩"
+          }
+        }
+      },
+      "contact": {
+        "manager": "刘敏",
+        "phone": "028-12345009",
+        "emergency_phone": "028-12345010"
+      }
+    }
+  ],
+  "metadata": {
+    "last_updated": "2024-12-19",
+    "version": "1.0",
+    "description": "成都市火灾应急物资仓库信息数据库",
+    "coordinate_system": "WGS84",
+    "units": {
+      "distance": "米",
+      "weight": "吨",
+      "area": "平方米"
+    }
+  }
+}
