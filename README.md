@@ -227,6 +227,41 @@ streamlit run app.py
 
 ## 🔧 配置说明
 
+### AI模型API配置
+
+系统使用多个AI模型提供智能分析功能，需要配置相应的API密钥。
+
+#### Modelscope API配置
+
+编辑 `utils/apis.py` 文件中的API密钥配置：
+
+```python
+class Qwen25VL72BInstruct:
+    def __init__(self):
+        self.model = "Qwen/Qwen2.5-VL-72B-Instruct"
+        self.api_key = "your-modelscope-api"  # 需要替换为您的Modelscope API密钥
+        self.api_base = "https://api-inference.modelscope.cn/v1/"
+
+class Qwen3_235B_A22B:
+    def __init__(self):
+        self.model = "Qwen/Qwen3-235B-A22B"
+        self.api_key = "your-modelscope-api"  # 需要替换为您的Modelscope API密钥
+        self.api_base = "https://api-inference.modelscope.cn/v1/"
+```
+
+**获取Modelscope API密钥：**
+
+1. 访问 [Modelscope官网](https://www.modelscope.cn/)
+2. 注册并登录您的账户
+3. 进入个人中心 → API管理
+4. 创建新的API密钥或查看现有密钥
+5. 将获取的API密钥替换 `utils/apis.py` 文件中的 `"your-modelscope-api"`
+
+**注意事项：**
+- 请妥善保管您的API密钥，不要将其提交到公共代码仓库
+- 建议使用环境变量来存储API密钥以提高安全性
+- 确保您的Modelscope账户有足够的API调用额度
+
 ### 服务器配置
 
 编辑 `configs/servers_config.json` 文件配置API服务器：
